@@ -6,7 +6,7 @@ Pomodoro is a simple and configurable Pomodoro timer.
 
 # 💻 Installation
 
-The repository has a 'Pomodoro.exe' \
+The repository have a 'Pomodoro.exe' \
 If do not work use maven installation.
 
 ### Maven
