@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:id="view" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #8f2f2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="150.0" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="150.0" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="150.0" />
+      <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="150.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="5.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+         <children>
+            <Button fx:id="startStopButton" alignment="CENTER" defaultButton="true" lineSpacing="5.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#startStopAction" onMouseEntered="#MouseOnButton" onMouseExited="#MouseExitButton" prefHeight="25.0" prefWidth="200.0" style="-fx-background-radius: 5; -fx-background-color: #181a1b;" text="START" textAlignment="CENTER" textFill="#e8e6e3" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Corbel Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="skipButton" layoutX="284.0" layoutY="15.0" mnemonicParsing="false" onAction="#skipAction" onMouseEntered="#MouseOnButton" onMouseExited="#MouseExitButton" style="-fx-background-color: #181a1b; -fx-background-radius: 4;" text="&gt;" textAlignment="CENTER" textFill="#e8e6e3" HBox.hgrow="ALWAYS" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" GridPane.rowSpan="2">
+         <children>
+            <Text fx:id="stateText" fill="#e8e6e3" layoutX="37.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SESSION" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Gadugi Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="time" fill="#e8e6e3" strokeType="OUTSIDE" strokeWidth="0.0" text="60:00" textAlignment="CENTER" textOrigin="CENTER" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Gadugi Bold" size="96.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <Text fx:id="sessionsText" fill="#e8e6e3" strokeType="OUTSIDE" strokeWidth="0.0" text="1/4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="Gadugi Bold" size="48.0" />
+         </font>
+      </Text>
+      <Button mnemonicParsing="false" onAction="#settingsAction" onMouseEntered="#MouseOnButton" onMouseExited="#MouseExitButton" style="-fx-background-radius: 4; -fx-background-color: #181a1b;" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/ajustes_Invert.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+         </padding>
+      </Button>
+   </children>
+</GridPane>

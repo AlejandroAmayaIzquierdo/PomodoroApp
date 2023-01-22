@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.8.4
+Built-By: Nova
+Build-Jdk: 17.0.2
+Class-Path: lib/javafx-controls-15.0.1.jar lib/javafx-controls-15.0.1-wi
+ n.jar lib/javafx-graphics-15.0.1.jar lib/javafx-graphics-15.0.1-win.jar
+  lib/javafx-base-15.0.1.jar lib/javafx-base-15.0.1-win.jar lib/javafx-f
+ xml-15.0.1.jar lib/javafx-fxml-15.0.1-win.jar lib/fxgl-17.2.jar lib/fxg
+ l-core-17.2.jar lib/javafx-media-18.jar lib/javafx-media-18-win.jar lib
+ /audio-4.0.13.jar lib/fxgl-io-17.2.jar lib/storage-4.0.13.jar lib/util-
+ 4.0.13.jar lib/fxgl-entity-17.2.jar lib/fxgl-scene-17.2.jar lib/fxgl-ga
+ meplay-17.2.jar lib/jackson-annotations-2.12.1.jar lib/jackson-databind
+ -2.12.1.jar lib/jackson-core-2.12.1.jar lib/lifecycle-4.0.13.jar lib/ko
+ tlin-stdlib-1.6.0-modular.jar lib/annotations-13.0.jar lib/kotlin-stdli
+ b-common-1.6.0.jar
+Main-Class: pomo.main.Main
+
