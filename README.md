@@ -7,8 +7,9 @@ Pomodoro is a simple and configurable Pomodoro timer.
 
 # 💻 Installation
 
-The repository have a 'Pomodoro.exe' \
-If do not work use maven installation.
+### Windows
+
+https://github.com/AlejandroAmayaIzquierdo/PomodoroApp/releases/tag/beta
 
 ### Maven
 
@@ -18,8 +19,13 @@ Clone the repository and access the directory
 ```bash
   git clone https://github.com/AlejandroAmayaIzquierdo/PomodoroApp
 ```
-Compile and execute java
+Build the project
 ```bash
-  mvn clean compile exec:java
+  mvn clean package
 ```
-
+Change directory the project
+```bash
+  cd target
+```
+Execute the intalator
+"pomodoro_0.1.exe"
