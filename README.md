@@ -23,7 +23,7 @@ Build the project
 ```bash
   mvn clean package
 ```
-Change directory the project
+Change directory
 ```bash
   cd target
 ```
